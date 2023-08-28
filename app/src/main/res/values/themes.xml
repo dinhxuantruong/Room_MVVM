@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Room_MVVM" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+        <color name="primaryColor">#2C6E9A</color>
+        <color name="accentColor">#FF4081</color>
+        <!-- Thêm các màu khác tại đây -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <!-- Thêm các thuộc tính style khác tại đây -->
+    </style>
+    <style name="Theme.Room_MVVM" parent="Base.Theme.Room_MVVM" />
+</resources>
