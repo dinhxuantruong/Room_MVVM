@@ -15,6 +15,7 @@ import com.example.room_mvvm.view.ListFragmentDirections
 
 class ListAdapter : RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
 
+    //check update
     private var oldPerson = emptyList<Person>()
 
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
